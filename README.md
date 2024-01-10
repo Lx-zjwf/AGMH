@@ -5,6 +5,7 @@ In recent years, hashing methods have been popular in the large-scale media sear
 
 ## Paper
 This is the code of "Attributes Grouping and Mining Hashing for Fine-grained Image Retrieval", which has been accepted by ACM MM 2023.
+
 Paper Link: [https://dl.acm.org/doi/abs/10.1145/3581783.3612043](https://dl.acm.org/doi/abs/10.1145/3581783.3612043)
 
 ## Implementation
