@@ -22,7 +22,7 @@ def image_retrieval(query_dataloader, query_code, database_code, query_labels, d
     """
     num_query = query_labels.shape[0]
     wrt_num = 10
-    wrt_root = '/home/member/share/luxin/Image Retrieval/GAH/retrieval/' + dataset
+    wrt_root = 'retrieval/' + dataset
 
     for i in tqdm(range(num_query)):
         query_path = root + query_dataloader.dataset.QUERY_DATA[i]

@@ -83,7 +83,6 @@ def load_config():
     # args config
     args.gpu = 0
     args.num_workers = 0
-
     args.max_iter = 40
     args.dataset = 'cub-2011'
     args.arch = 'test'
@@ -144,7 +143,6 @@ def run():
         logger.info(args)
 
     torch.backends.cudnn.benchmark = True
-
     # Load dataset
     query_dataloader, train_dataloader, retrieval_dataloader = load_data(
         args.dataset,

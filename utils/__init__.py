@@ -1,6 +1,5 @@
 class AverageMeter(object):
     """Computes and stores the average and current value"""
-
     def __init__(self, window_size=None):
         self.length = 0
         self.val = 0

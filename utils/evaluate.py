@@ -46,7 +46,6 @@ def mean_average_precision(query_code,
 
         # Acquire index
         index = (torch.nonzero(retrieval == 1).squeeze() + 1.0).float()
-
         mean_AP += (score / index).mean()
 
     mean_AP = mean_AP / num_query
