@@ -7,14 +7,23 @@ In recent years, hashing methods have been popular in the large-scale media sear
 
 ## Citation
 @inproceedings{10.1145/3581783.3612043,
+
 author = {Lu, Xin and Chen, Shikun and Cao, Yichao and Zhou, Xin and Lu, Xiaobo},
+
 title = {Attributes Grouping and Mining Hashing for Fine-Grained Image Retrieval},
+
 year = {2023},
+
 address = {New York, NY, USA},
+
 booktitle = {Proceedings of the 31st ACM International Conference on Multimedia},
+
 pages = {6558–6566},
+
 numpages = {9},
+
 location = {, Ottawa ON, Canada, },
+
 series = {MM '23}
 }
 
