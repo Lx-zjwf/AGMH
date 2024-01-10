@@ -25,7 +25,6 @@ class Feat_Loss(nn.Module):
                 com_sm = sm_list[j]
                 batch_loss += (cur_sm * com_sm).sum()
         cal_num = top_k * (top_k - 1) // 2
-
         feat_loss = batch_loss / (cal_num * B)
 
         return feat_loss

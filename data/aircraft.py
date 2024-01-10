@@ -1,7 +1,6 @@
 import sys
 import torch
 import numpy as np
-
 import os
 import pandas as pd
 from torchvision.datasets.folder import default_loader
@@ -9,7 +8,6 @@ from torchvision.datasets.utils import download_url
 from torch.utils.data import Dataset
 from torch.utils.data.dataloader import DataLoader
 from PIL import Image, ImageFile
-
 from data.transform import encode_onehot
 from data.transform import train_transform, query_transform
 

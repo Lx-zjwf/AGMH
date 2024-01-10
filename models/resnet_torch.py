@@ -1,15 +1,11 @@
 from __future__ import absolute_import
-
-
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from torch.nn import init
 import torchvision
-
 # from torchvision.models.utils import load_state_dict_from_url
 from torch.hub import load_state_dict_from_url
-
 # from ..utils.serialization import load_checkpoint, copy_state_dict
 
 __all__ = ['ResNet', 'resnet18', 'resnet34', 'resnet50', 'resnet101',

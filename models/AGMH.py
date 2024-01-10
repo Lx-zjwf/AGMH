@@ -1,5 +1,4 @@
 from __future__ import absolute_import
-
 import random
 import torch
 import torch.nn as nn
@@ -12,7 +11,6 @@ from torch.hub import load_state_dict_from_url
 import math
 from collections import OrderedDict
 from models.resnet_torch import resnet18, resnet50
-
 # from ..utils.serialization import load_checkpoint, copy_state_dict
 
 __all__ = ['ResNet', 'resnet18', 'resnet34', 'resnet50', 'resnet101',

@@ -1,5 +1,5 @@
-import torch.nn as nn
 import torch
+import torch.nn as nn
 
 class ADSH_Loss(nn.Module):
     def __init__(self, code_length, gamma):

@@ -15,7 +15,6 @@ def tsne_plot(query_code, query_targets):
     label = query_targets.argmax(dim=1).numpy()
     tsne = TSNE(n_components=2, init='pca')
     data = tsne.fit_transform(data)
-
     x_min, x_max = np.min(data, 0), np.max(data, 0)
     data = (data - x_min) / (x_max - x_min)
     cls_num = len(set(label))

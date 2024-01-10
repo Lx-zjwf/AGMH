@@ -3,7 +3,6 @@ import torch
 import numpy as np
 import piexif
 import warnings
-
 warnings.filterwarnings("error", category=UserWarning)
 import os
 import pandas as pd
@@ -12,7 +11,6 @@ from torchvision.datasets.utils import download_url
 from torch.utils.data import Dataset
 from torch.utils.data.dataloader import DataLoader
 from PIL import Image, ImageFile
-
 from data.transform import encode_onehot
 from data.transform import train_transform, query_transform
 

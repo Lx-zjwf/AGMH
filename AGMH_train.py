@@ -6,7 +6,6 @@ import time
 import utils.evaluate as evaluate
 # import models.resnet as resnet
 import numpy as np
-
 from tqdm import tqdm
 from loguru import logger
 from models.ADSH_Loss import ADSH_Loss

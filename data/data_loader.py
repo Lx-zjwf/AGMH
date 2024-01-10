@@ -1,10 +1,8 @@
 import torch
 import os
-
 from torch.utils.data.dataloader import DataLoader
 from torch.utils.data.dataset import Dataset
 from PIL import Image, ImageFile
-
 import data.cub_2011 as cub2011
 import data.nabirds as nabirds
 import data.aircraft as aircraft
